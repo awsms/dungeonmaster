@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style/general.css">
+  <title>Games</title>
+   <script type="module" src="assets/script/test.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Dungeon Master</h1>
+    <h2 id="floor"></h2>
+    <div id="background">
+      <div id="hero-health_bar">
+        <div></div>
+      </div>
+      <img id="hero" src="assets/img/hero.png" alt="">
+      <div id="monster-health_bar">
+        <div></div>
+      </div>
+    </div>
+    <div id="action">
+      <button id="btn-attack">Attack</button>
+      <button id="btn-use">Use</button>
+      <button id="btn-next">Next Floor</button>
+    </div>
+    <div id="inventory">
+      Weapons:
+      <div id="weapons">
+      </div>
+      Potions:
+      <div id="potions">
+      </div>
+    </div>
+  </div>
+  <div id="lose">
+    You lost! <br>
+    <a href="javascript:location.reload(true)">Restart</a>
+  </div>
+</body>
+</html>
